@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Wed 23 Jul 14:09:13 2025
+    on Thu 24 Jul 09:41:25 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -128,7 +128,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/sophiastudent/Desktop/poster_demo/poster_demo_lastrun.py',
+        originPath='/Users/sophiastudent/Documents/GitHub/pupil_labs_neon_poster_demo/poster_demo_lastrun.py',
         savePickle=True, saveWideText=False,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -372,8 +372,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='LTR',
         depth=0.0);
     distractor = visual.ShapeStim(
-        win=win, name='distractor', vertices='cross',units='deg', 
-        size=(1, 1),
+        win=win, name='distractor', vertices='cross',
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -414,8 +414,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='LTR',
         depth=0.0);
     distractor_end = visual.ShapeStim(
-        win=win, name='distractor_end', vertices='cross',units='deg', 
-        size=(1, 1),
+        win=win, name='distractor_end', vertices='cross',
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
